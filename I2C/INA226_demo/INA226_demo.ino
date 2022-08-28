@@ -22,7 +22,7 @@ void setup()
   {
     Serial.println("could not connect. Fix and Reboot");
   }
-  INA.setMaxCurrentShunt(1, 0.002);
+  INA.setMaxCurrentShunt(1, 0.115);
 }
 
 
@@ -45,4 +45,3 @@ void loop()
 
 
 // -- END OF FILE --
-
